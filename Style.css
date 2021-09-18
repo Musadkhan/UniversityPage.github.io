@@ -278,7 +278,8 @@
 /* ----------------------------------------------------------------------------------------------*/
 
 .ThirdPhase{
-    border: 1px solid blue; 
+    background-color: #FFF9F3;
+    /* border: 1px solid blue;  */
     height: 80vh;
     display: flex;
     flex-direction: row;
@@ -322,7 +323,7 @@
     padding-top: 30px;
 }
 .ThirdPhase .Count .Counts{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     color: rebeccapurple;
     width: auto;
     text-align: center;
@@ -380,5 +381,62 @@
 
     .ThirdPhase .Count .Counts{
         margin: 0 5px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.ForthPhase{
+    /* border: 1px solid red; */
+    /* margin-top: 80px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF9F3;
+}
+.ForthPhase h1{
+    margin-top: 30px;
+    font-family: 'Pacifico', cursive;
+}
+.main-carouse1{
+    /* border: 1px solid blue; */
+    width: 80vw;
+    height: auto;
+    padding: 10px 10px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.carousel-cell{
+    /* border: 1px solid red; */
+    width: 25%;
+    /* height: 100%; */
+    margin-right: 50px;
+    /* padding-bottom: 50px; */
+}
+.carousel-cell img{
+    width:100%;
+    height:70%;
+}
+
+@media screen and (max-width:800px){
+
+    .carousel-cell{
+        /* border: 1px solid red; */
+        width: 40%;
+        /* height: 100%; */
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:450px){
+
+    .carousel-cell{
+        /* border: 1px solid red; */
+        width: 70%;
+        /* height: 100%; */
+        margin-right: 50px;
     }
 }
