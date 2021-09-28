@@ -440,3 +440,167 @@
         margin-right: 50px;
     }
 }
+
+/* --------------------------------------------------------------------------------------------------------- */
+.FifthPhase{
+    /* border: 1px solid red; */
+    background-color: #282c3c;
+    /* width: 100vw; */
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.FifthPhase .First{
+    width: 40%;
+    /* border: 1px solid blue; */
+    padding: 10px 10px;
+
+}
+
+.FifthPhase .First .Parent{
+    display: flex;
+}
+.FifthPhase .First img{
+    margin-right: 10px;
+    height: 50px;
+    /* border: 1px solid blue; */
+
+}
+
+.FifthPhase .Second{
+    padding: 10px 10px;
+    margin-left: 10%;
+    width: 40%;
+    /* border: 1px solid blue; */
+
+}
+
+.FifthPhase .Respo1{
+    /* border: 1px solid blue; */
+    width: 40vw;
+    display: flex;
+}
+
+
+.FifthPhase .Third{
+    width: 40%;
+    /* border: 1px solid blue; */
+    padding: 10px 10px;
+    
+}
+
+.FifthPhase .Forth{
+    width: 40%;
+    /* border: 1px solid blue; */
+    padding: 10px 10px;
+}
+
+#email{
+    width: 150px;
+    height: 25px;
+    margin-right: 0;
+}
+
+.FifthPhase .Forth button{
+    margin-left: 0;
+    padding: 5px 5px;
+    width: auto;
+    height: auto;
+    background-color: yellowgreen;
+}
+
+
+.FifthPhase .Respo2{
+    /* border: 1px solid blue; */
+    width: 40vw;
+    display: flex;
+}
+
+
+@media screen and (max-width:920px){
+
+    .FifthPhase{
+        flex-direction: column;
+    }
+
+    .FifthPhase .First{
+        /* border: 1px solid red; */
+        width: 45%;
+    }
+
+    .FifthPhase .Second{
+        /* border: 1px solid red; */
+        width: 45%;
+    }
+
+    .FifthPhase .Respo1{
+        /* border: 1px solid blue; */
+        width: 100vw;
+        display: flex;
+        padding: 20px 0 0 50px;
+        margin-bottom: 40px;
+    }
+
+    .FifthPhase .Third{
+        width: 45%;
+    }
+
+    .FifthPhase .Forth{
+        width: 45%;
+    }
+
+    .FifthPhase .Respo2{
+        /* border: 1px solid blue; */
+        width: 100vw;
+        display: flex;
+        padding: 20px 0 0 50px;
+    }
+}
+
+
+@media screen and (max-width:550px) {
+
+    .FifthPhase .Respo1{
+        /* border: 1px solid blue; */
+        flex-direction: column;
+        padding: 0px 0 0 0px;
+
+    }
+
+    .FifthPhase .First{
+        /* border: 1px solid red; */
+        width: auto;
+    }
+
+    .FifthPhase .Second{
+        width: auto;
+        /* border: 1px solid red; */
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+
+
+    .FifthPhase .Respo2{
+        /* border: 1px solid blue; */
+        flex-direction: column;
+        padding: 0px 0 0 0px;
+    }
+
+    .FifthPhase .Third{
+        /* border: 1px solid red; */
+        width: auto;
+    }
+    .FifthPhase .Forth{
+        width: auto;
+        /* border: 1px solid red; */
+        margin-left: 0;
+        margin-top: 30px;
+
+    }
+
+}
